@@ -1,0 +1,22 @@
+{
+  "name": "js-live-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredH2O/js-live-coding.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FredH2O/js-live-coding/issues"
+  },
+  "homepage": "https://github.com/FredH2O/js-live-coding#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
