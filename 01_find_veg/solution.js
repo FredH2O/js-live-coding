@@ -24,8 +24,6 @@ function findTrue() {
 
 console.log(findTrue());
 
-module.exports = { findTrue };
-
 function findNameWithVegetable() {
   const name = people.find((person) => person.veg === true);
   return [name.name];
@@ -74,3 +72,16 @@ function allVegetarians() {
 }
 
 console.log(allVegetarians());
+
+// ---------------------------------------------- //
+
+const names = ["Jack", "Jill", "Opus", "Mia"];
+
+function hasName(name) {
+  return names.includes(name);
+}
+
+console.log(hasName("Mia"));
+console.log(hasName("Patrick"));
+
+module.exports = { findTrue, hasName };
