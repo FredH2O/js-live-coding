@@ -1,7 +1,6 @@
 const { findTrue, hasName } = require("./solution");
 
 test("finds people with veg set to true", () => {
-  console.log(findTrue());
   expect(findTrue()).toEqual([
     { name: "Opus", veg: true },
     { name: "Mia", veg: true },
