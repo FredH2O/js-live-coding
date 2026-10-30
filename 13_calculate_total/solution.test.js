@@ -6,7 +6,7 @@ test("Shows the total price of items.", () => {
   expect(calculateTotal(prices)).toBe(80);
 });
 
-test("Shows an empty array because basket is empty", () => {
+test("return 0", () => {
   expect(calculateTotal([])).toEqual(0);
 });
 
